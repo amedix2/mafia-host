@@ -1,0 +1,3 @@
+opencv-python~=4.10.0.82
+python-dotenv~=1.0.1
+mediapipe~=0.10.14
