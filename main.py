@@ -39,6 +39,7 @@ def get_sums():
             n_i += 1
     return n_m, n_i
 
+
 class Player:
     def __init__(self, role: str, is_alive: bool, player_id: int):
         self.role = role
@@ -153,7 +154,7 @@ if __name__ == "__main__":
             for i in range(n):
                 os.system(f'say игрок номер {i + 1} {'живой' if DATA_PLAYERS[i].is_alive else 'нафидил'}')
                 time.sleep(1)
-                os.system('say минута молчания в честь умерших')
-                time.sleep(10)
+            os.system('say минута молчания в честь умерших')
+            time.sleep(10)
 
         lap += 1
